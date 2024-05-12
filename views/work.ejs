@@ -1,0 +1,32 @@
+<%- include("partials/header.ejs") %>
+<body>
+    <div id="upperContainer">
+    <div id="container">
+        <div id="head">
+            work to do
+        </div>
+        <div id="body">
+            <form action="/work" method="post">
+                <input type="text" name="uiInput" placeholder="New Item">
+                <input id="button" type="submit" value="+">
+            </form >
+            <% if (locals.userInput) {%>
+                <div class="newInput" >
+                <% for (let index = 0; index < userInput.length; index++) {%>
+
+                    <div>
+                        <input type="checkbox" name="<%= userInput[index] %>" >
+                        <label  for="<%= userInput[index] %>"><%= userInput[index] %></label>
+                    </div>
+                        
+               <%  };  %>
+            </div>
+            <%} %>
+        
+        </div>
+    </div>
+    </div>
+</body>
+
+
+<%- include("partials/footer.ejs") %>
