@@ -1,9 +1,40 @@
+@media (min-width: 550px) {
+    html{
+        font-size: 25px;
+    }
+    ul{
+        font-size: 20px;
+    }
+    #head{
+        height: 60px;
+    }
+    #container{
+        min-width: 300px;
+        max-width: 1000px;
+    }
+}
+@media (max-width:550px) {
+    ul{
+        font-size: 10px;
+    }
+    html{
+        font-size: 15px;
+    }
+    #head{
+        height: 40px;
+    }
+    #container{
 
+        min-width: 150px;
+        max-width: 500px;
+     
+    }
+}
 ul{
     list-style-type: none;
     display: flex;
     justify-content: end;
-    font-size: 20px;
+    
 }
 li{
     margin: 0 20px;
@@ -16,7 +47,7 @@ a{
 html{
 background-color: #A1CCD1;
 font-family: 'Borel', 'Caveat',sans-serif;
-font-size: 25px;
+
 }
 
 #head{
@@ -26,8 +57,7 @@ font-size: 25px;
     color:  #F4F2DE;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 80px;
+    align-items:flex-end;
     padding-top: 5px;
 }
 #body{
@@ -60,8 +90,7 @@ input[type="submit"]{
 #container{
     box-shadow: 3px 3px #7C9D96;
     border-radius: 5px;
-    min-width: 300px;
-    max-width: 1000px;
+
  
 }
 input{
