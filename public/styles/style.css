@@ -3,10 +3,10 @@ ul{
     list-style-type: none;
     display: flex;
     justify-content: end;
-    font-size: 10px;
+    font-size: 20px;
 }
 li{
-    margin: 0 10px;
+    margin: 0 20px;
 }
 a{
     color: #F4F2DE;
@@ -16,6 +16,7 @@ a{
 html{
 background-color: #A1CCD1;
 font-family: 'Borel', 'Caveat',sans-serif;
+font-size: 25px;
 }
 
 #head{
@@ -26,15 +27,15 @@ font-family: 'Borel', 'Caveat',sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
-    padding-top: 10px;
+    height: 80px;
+    padding-top: 5px;
 }
 #body{
     background-color: #F4F2DE;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     min-height: 100px;
-    padding: 10px;
+    padding: 5px;
     
 }
 
@@ -47,8 +48,9 @@ input[type="submit"]{
     border-radius: 5px;
     background-color: #E9B384;
     font-weight: bold;
-    min-height: 20px;
-    border-style: none;
+    min-height: 40px;
+    min-width: 40px;
+    border-style:none;
     color:#F4F2DE ;
 }
 #upperContainer{
@@ -58,8 +60,8 @@ input[type="submit"]{
 #container{
     box-shadow: 3px 3px #7C9D96;
     border-radius: 5px;
-    min-width: 100px;
-    max-width: 250px;
+    min-width: 300px;
+    max-width: 1000px;
  
 }
 input{
@@ -79,6 +81,6 @@ input[type=text]{
     color: #7C9D96;
 }
 footer{
-    font-size: 7px;
+    
     color: #F4F2DE;
 }
