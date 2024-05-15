@@ -2,9 +2,9 @@
     html{
         font-size: 25px;
     }
-    ul{
-        font-size: 20px;
-    }
+   footer{
+    font-size: 10px;
+   }
     #head{
         height: 60px;
     }
@@ -14,9 +14,7 @@
     }
 }
 @media (max-width:550px) {
-    ul{
-        font-size: 10px;
-    }
+    
     html{
         font-size: 15px;
     }
@@ -24,11 +22,12 @@
         height: 40px;
     }
     #container{
-
         min-width: 150px;
         max-width: 500px;
-     
     }
+    footer{
+        font-size: 5px;
+       }
 }
 ul{
     list-style-type: none;
@@ -47,7 +46,6 @@ a{
 html{
 background-color: #A1CCD1;
 font-family: 'Borel', 'Caveat',sans-serif;
-
 }
 
 #head{
@@ -66,7 +64,6 @@ font-family: 'Borel', 'Caveat',sans-serif;
     border-bottom-right-radius: 5px;
     min-height: 100px;
     padding: 5px;
-    
 }
 
 form{
@@ -90,8 +87,6 @@ input[type="submit"]{
 #container{
     box-shadow: 3px 3px #7C9D96;
     border-radius: 5px;
-
- 
 }
 input{
     background-color: #F4F2DE;
@@ -112,4 +107,8 @@ input[type=text]{
 footer{
     
     color: #F4F2DE;
+}
+.navContainer{
+    display: flex;
+    justify-content: space-between;
 }

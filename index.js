@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 function getUserInput(res,req) {
   let input = req.body['uiInput']
-  if (!obj.userInput.includes(input)) {
+  if (!obj.userInput.includes(input)&&input.length!=0) {
     obj.userInput.push(input)
   }
 }
