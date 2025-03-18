@@ -25,20 +25,20 @@ function getUserInput(res,req) {
   }
 }
 app.get("/", (req, res) => {
-    res.render('index.ejs')
+    res.render('index')
   });
   app.get("/work", (req, res) => {
-    res.render('work.ejs')
+    res.render('work')
   });
 
 app.post("/add", (req, res) => {
   getUserInput(res,req)
-    res.render('index.ejs',obj)
+    res.render('index',obj)
 
 });
 app.post("/work", (req, res) => {
   getUserInput(res,req)
-    res.render('work.ejs',obj)
+    res.render('work',obj)
 
 });
 app.listen(port, () => {
